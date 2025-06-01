@@ -72,12 +72,12 @@ export class ViewFigure extends View {
         const startY = figure.y;
         const endY = HEIGHT * (PERCENT_FILL / 2) + figure.height * 2;
         const distance = endY - startY;
-        const duration = (distance / this._gravityValue) * 2;
+        const duration = (distance / this._gravityValue);
         const lineY = -HEIGHT * PERCENT_FILL / 2;
         gsap.to(figure, {
             y: endY,
             duration: duration,
-            ease: "power4.inOut",
+            ease: "expo.in",
             onStart: () => {
                 figure.square
             },
