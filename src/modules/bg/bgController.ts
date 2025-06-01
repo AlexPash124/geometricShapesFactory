@@ -1,7 +1,7 @@
-import {BaseController} from "../utils/controller";
+import {BaseController} from "../../utils/controller";
 import {BgView} from "./bgView";
 import {BgNotification} from "./notification";
-import {TPoint} from "../utils/types";
+import {TPoint} from "../../utils/types";
 
 export class BgController extends BaseController {
     init() {

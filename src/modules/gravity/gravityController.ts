@@ -1,4 +1,4 @@
-import {BaseController} from "../utils/controller";
+import {BaseController} from "../../utils/controller";
 import {GravityView} from "./gravityView";
 import {GravityNotification} from "./gravityNotification";
 

@@ -1,4 +1,4 @@
-import {BaseController} from "../utils/controller";
+import {BaseController} from "../../utils/controller";
 import {NumberFigureControlView} from "./numberFigureControlView";
 import {NumberFigureControlNotification} from "./numberFigureControlNotification";
 

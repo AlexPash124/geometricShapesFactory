@@ -1,4 +1,4 @@
-import {View} from "../utils/view";
+import {View} from "../../utils/view";
 
 export class NumberFigureControlView extends View {
     static BUTTON_CLICK = "ViewControl.BUTTON_CLICK";

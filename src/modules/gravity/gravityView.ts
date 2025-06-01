@@ -1,4 +1,4 @@
-import {View} from "../utils/view";
+import {View} from "../../utils/view";
 
 export class GravityView extends View {
     static BUTTON_CLICK = "GravityView.BUTTON_CLICK";

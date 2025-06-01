@@ -1,6 +1,6 @@
-import {View} from "../utils/view";
-import {HEIGHT, PERCENT_FILL, TPoint, WIDTH} from "../utils/types";
-import {randomInteger, setAnimationTimeoutSync} from "../utils/helpersFunction";
+import {View} from "../../utils/view";
+import {HEIGHT, PERCENT_FILL, TPoint, WIDTH} from "../../utils/types";
+import {randomInteger, setAnimationTimeoutSync} from "../../utils/helpersFunction";
 import {Graphics} from "pixi.js";
 import {gsap} from "gsap";
 import {FigureWithSquare, getFigures} from "./figures";

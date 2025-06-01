@@ -1,6 +1,6 @@
 import {Graphics} from "pixi.js";
-import {randomInteger} from "../utils/helpersFunction";
-import {WIDTH} from "../utils/types";
+import {randomInteger} from "../../utils/helpersFunction";
+import {WIDTH} from "../../utils/types";
 
 export interface FigureWithSquare extends Graphics {
     square: number;

@@ -1,6 +1,6 @@
-import {View} from "../utils/view";
+import {View} from "../../utils/view";
 import {Text, TextStyle} from "pixi.js";
-import {HEIGHT, TViewData, WIDTH} from "../utils/types";
+import {HEIGHT, TViewData, WIDTH} from "../../utils/types";
 
 export class SquareView extends View {
     protected _squareText: Text;

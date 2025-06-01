@@ -1,6 +1,6 @@
-import {View} from "../utils/view";
+import {View} from "../../utils/view";
 import {Graphics} from "pixi.js";
-import {HEIGHT, PERCENT_FILL, WIDTH} from "../utils/types";
+import {HEIGHT, PERCENT_FILL, WIDTH} from "../../utils/types";
 
 export class BgView extends View {
     static CLICK_TO_BG = "BgView.CLICK_TO_BG";

@@ -1,16 +1,16 @@
 import { Application, EventEmitter, Container } from "pixi.js";
-import { BgController } from "../src/bg/bgController";
-import { NumberFigureControlController } from "../src/numberFigureControll/numberFigureControlController";
+import { BgController } from "../src/modules/bg/bgController";
+import { NumberFigureControlController } from "../src/modules/numberFigureControll/numberFigureControlController";
 import { HEIGHT, TControllerData, WIDTH } from "../src/utils/types";
-import { BgView } from "../src/bg/bgView";
-import { NumberFigureControlView } from "../src/numberFigureControll/numberFigureControlView";
+import { BgView } from "../src/modules/bg/bgView";
+import { NumberFigureControlView } from "../src/modules/numberFigureControll/numberFigureControlView";
 import { View } from "../src/utils/view";
-import {FigureController} from "../src/figure/figureController";
-import {ViewFigure} from "../src/figure/viewFigure";
-import {GravityController} from "../src/gravity/gravityController";
-import {GravityView} from "../src/gravity/gravityView";
-import {InfoController} from "../src/info/infoController";
-import {SquareView} from "../src/info/squareView";
+import {FigureController} from "../src/modules/figure/figureController";
+import {ViewFigure} from "../src/modules/figure/viewFigure";
+import {GravityController} from "../src/modules/gravity/gravityController";
+import {GravityView} from "../src/modules/gravity/gravityView";
+import {InfoController} from "../src/modules/info/infoController";
+import {SquareView} from "../src/modules/info/squareView";
 
 export class App extends Application {
     private eventEmitter = new EventEmitter();
