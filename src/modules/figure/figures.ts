@@ -31,7 +31,7 @@ export function getFigures(numberFigures: number): FigureWithSquare[] {
             figure.drawEllipse(centerX, centerY, rx, ry);
             figure.square = Math.PI * rx * ry; // площа еліпса
         } else if (sides < 0) {
-            const steps = 100;
+            const steps = randomInteger(10, 50);
             const waveCount = randomInteger(2, 6);
             const distortion = radius * 0.4;
             for (let j = 0; j <= steps; j++) {
